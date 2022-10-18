@@ -1,4 +1,9 @@
 .App-logo {
-  max-width: 200px;
-  margin: 0 auto;
+  width: 200px;
+}
+
+.App-footer,
+.Dictionary-Title {
+  text-align: center;
+  margin: 0px 0px 20px;
 }
