@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Dictionary.css";
+import Results from "./Results";
 export default function Dictionary() {
   let [word, setWord] = useState("");
-  //let [result, setResult] = useState({});
+  //state receives an object as that is the form in which it is in the api call
+  let [result, setResult] = useState(null);
   function handleResponse(response) {
-    console.log(response.data[0]);
-    //setResult(response.data[0]);
+    setResult(response.data[0]);
   }
   function search(event) {
     event.preventDefault();
@@ -27,6 +28,8 @@ export default function Dictionary() {
         />
         <input type="submit" value="search" />
       </form>
+      {/*component name (Results) property name (result) = {property value set in the state}*/}
+      <Results results={result} />
     </div>
   );
 }
