@@ -13,7 +13,10 @@ export default function App() {
           <h1 className="Dictionary-Title"> Dictionary</h1>
           <Dictionary />
         </main>
-        <footer className="App-footer m-4">Coded by Viktoria</footer>
+        <footer className="App-footer m-4">
+          Project is coded by Viktoria & is open sourced on{" "}
+          <a href="https://github.com/viki3612/dictionary-project"> Github </a>
+        </footer>
       </div>
     </div>
   );
