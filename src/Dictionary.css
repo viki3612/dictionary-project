@@ -1,3 +1,26 @@
 .Dictionary {
   text-align: center;
 }
+.Dictionary section {
+  background: #abc2e8;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 60px 0;
+}
+.Dictionary .btn-outline-secondary {
+  background: white;
+  border: white;
+  box-shadow: none;
+}
+.Dictionary .btn-outline-secondary:hover {
+  font-size: bold;
+  color: black;
+}
+.Icon-inside i {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding: 10px 10px;
+  color: #30a3f1;
+}
