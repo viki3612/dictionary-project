@@ -1,0 +1,18 @@
+.Phonetic {
+  margin: 15px 0;
+  text-align: center;
+}
+.Phonetic a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+.Phonetic a:hover {
+  color: #ffe3e1;
+  transition: all 200ms ease-in-out;
+}
+.Phonetic .phonetics {
+  font-weight: 600;
+  opacity: 0.7;
+}

@@ -11,7 +11,7 @@ export default function App() {
         </header>
         <main>
           <h1 className="Dictionary-Title"> Dictionary</h1>
-          <Dictionary />
+          <Dictionary defaultWord="sunset" />
         </main>
         <footer className="App-footer m-4">
           Project is coded by Viktoria & is open sourced on{" "}
