@@ -47,7 +47,7 @@ export default function Dictionary(props) {
             className="form-control"
             list="datalistOptions"
             onChange={handleWordChange}
-            placeholder={props.defaultWord}
+            defaultValue={props.defaultWord}
           />
 
           <datalist id="datalistOptions">
