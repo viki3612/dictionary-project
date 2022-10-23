@@ -1,11 +1,15 @@
 form {
-  width: 60%;
   margin: 0 auto;
+}
+.Dictionary-Title {
+  margin-bottom: 40px;
+  font-size: 60px;
 }
 .Dictionary .btn-outline-secondary {
   background: white;
   border: white;
   box-shadow: none;
+  width: auto;
 }
 .Dictionary .btn-outline-secondary:hover {
   font-size: bold;

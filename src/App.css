@@ -1,11 +1,13 @@
 body {
   background: white;
 }
-
-.App-logo {
-  width: 200px;
+main {
+  margin: 60px 0px 30px;
 }
-
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .App-footer,
 .Dictionary-Title {
   text-align: center;

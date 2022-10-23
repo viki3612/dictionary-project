@@ -1,5 +1,5 @@
 .Result section {
-  background: #abc2e8;
+  background: #e6f7f7;
   padding: 30px;
   border-radius: 6px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
@@ -12,6 +12,7 @@
   line-height: 1.5;
   text-transform: capitalize;
   text-align: center;
+  margin: 30px 0 0 0;
 }
 .Definitions h3 {
   font-weight: bold;
