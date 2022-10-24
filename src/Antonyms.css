@@ -1,0 +1,14 @@
+.Antonyms {
+  padding: 15px 0 0;
+  margin: 0;
+}
+.Antonyms-title {
+  font-weight: 500;
+  color: #44558f;
+}
+.Antonyms .Antonyms-words {
+  display: inline-block;
+  padding: 20px 20px 0px 0px;
+  font-style: italic;
+  color: #44558f;
+}

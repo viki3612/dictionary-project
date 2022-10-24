@@ -1,4 +1,3 @@
-import logo from "./logo192.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,7 +6,6 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <h1 className="Dictionary-Title"> Dictionary</h1>
           <Dictionary defaultWord="sunset" />
         </main>
         <footer className="App-footer m-4">

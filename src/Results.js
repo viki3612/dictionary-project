@@ -2,6 +2,7 @@ import React from "react";
 import Phonetic from "./Phonetic";
 import Meaning from "./Meaning";
 import Synonyms from "./Synonyms";
+import Antonyms from "./Antonyms";
 import "./Results.css";
 
 export default function Results(props) {
@@ -28,8 +29,14 @@ export default function Results(props) {
               <section key={index}>
                 <Meaning meaning={meaning} />
                 <br />
-
-                <Synonyms synonyms={meaning.synonyms} />
+                <div className="row">
+                  <div className="col-6">
+                    <Synonyms synonyms={meaning.synonyms} />
+                  </div>
+                  <div className="col">
+                    <Antonyms antonyms={meaning.antonyms} />
+                  </div>
+                </div>
               </section>
             );
           })}
