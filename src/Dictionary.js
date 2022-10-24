@@ -45,19 +45,24 @@ export default function Dictionary(props) {
         <section>
           <h2>What word do you want to look up?</h2>
           <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              className="form-control"
-              list="datalistOptions"
-              onChange={handleWordChange}
-              defaultValue={props.defaultWord}
-            />
+            <div className="input-group">
+              <input
+                type="search"
+                className="form-control"
+                list="datalistOptions"
+                onChange={handleWordChange}
+                defaultValue={props.defaultWord}
+              />
 
-            <datalist id="datalistOptions">
-              <option value="Rose"></option>
-              <option value="Forest"></option>
-              <option value="Mindful"></option>
-            </datalist>
+              <datalist id="datalistOptions">
+                <option value="Rose"></option>
+                <option value="Forest"></option>
+                <option value="Mindful"></option>
+              </datalist>
+              <button class="btn btn-primary" type="submit">
+                Search
+              </button>
+            </div>
           </form>
         </section>
         {/*component name (Results) property name (result) = {property value set in the state}*/}

@@ -25,3 +25,14 @@ form {
   margin-bottom: 20px;
   line-height: 1.5;
 }
+.btn-primary {
+  transition: all 200ms ease-in-out;
+  border-color: #ced4da;
+  background-color: white;
+  color: grey;
+}
+.btn-primary:hover {
+  background-color: #e6f7f7;
+  border-color: #ced4da;
+  color: grey;
+}
