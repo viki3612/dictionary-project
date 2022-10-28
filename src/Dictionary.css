@@ -26,10 +26,10 @@ h2.Which-Word {
   text-align: center;
 }
 .btn-primary {
-  transition: all 200ms ease-in-out;
   border-color: #ced4da;
   background-color: white;
   color: grey;
+  transition: all 200ms ease-in-out;
 }
 .btn-primary:hover {
   background-color: #ffe1d4;
