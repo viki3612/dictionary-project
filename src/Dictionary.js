@@ -58,7 +58,7 @@ export default function Dictionary(props) {
                 <option value="Forest"></option>
                 <option value="Mindful"></option>
               </datalist>
-              <button class="btn btn-primary" type="submit">
+              <button className="btn btn-primary" type="submit">
                 Search
               </button>
             </div>

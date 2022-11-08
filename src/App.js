@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <main>
           <div className="App-header">
-            <img src={logo} className="App-logo img-fluid" alt="logo" />
+            <img src={logo} className="img-fluid" alt="logo" />
           </div>
           <Dictionary defaultWord="sunset" />
         </main>
@@ -28,7 +28,7 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            Github{" "}
+            Github ✌️
           </a>
         </footer>
       </div>

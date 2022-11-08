@@ -1,7 +1,7 @@
 body {
-  background-image: url("background2.png");
-  background-position: 100%;
+  background-color: #44558f;
 }
+
 main {
   margin: 20px 0px 30px;
 }
@@ -14,7 +14,10 @@ main {
   text-align: center;
   margin: 0px 0px 20px;
 }
-.App-logo {
+.App-footer {
+  color: white;
+}
+img {
   max-width: 200px;
   max-height: 200px;
   display: block;
@@ -22,9 +25,9 @@ main {
 }
 .App a {
   text-decoration: none;
-  color: #44558f;
+  color: rgb(218, 215, 215);
 }
 .App a:hover {
-  font-weight: bolder;
+  color: white;
   transition: all 200ms ease-in-out;
 }
