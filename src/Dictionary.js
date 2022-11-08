@@ -6,7 +6,6 @@ import Photos from "./Photos";
 
 export default function Dictionary(props) {
   let [word, setWord] = useState(props.defaultWord);
-  //state receives an object as that is the form in which it is in the api call
   let [result, setResult] = useState(null);
   // to have a word that loads when open the dictionary,loaded state will keep track of whether page has been load which is by default false
   let [loaded, setLoaded] = useState(false);
