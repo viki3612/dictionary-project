@@ -19,9 +19,9 @@ export default function Dictionary(props) {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(apiUrl).then(handleResponse);
     let pexelsApiKey =
-      "563492ad6f91700001000001ca29f16adf9545ae98988280416b1057";
+      "563492ad6f9170000100000145a90d0d1df34715bf82ec969d716060";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=6`;
-    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    let headers = { Authorization: ` ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers }).then(handlePexelResponse);
   }
   function handleResponse(response) {
